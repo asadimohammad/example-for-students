@@ -5,8 +5,6 @@ eventListeners()
 function eventListeners(){
     hamburgerMenu.addEventListener('click' , addToggle)
 }
-
-
 function addToggle(e){
     hamburgerMenu.classList.toggle('on')
 }
